@@ -1,0 +1,7 @@
+.top-card {
+  width: 1197px;
+  top: 38px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.149);
+  z-index: 3;
+}
