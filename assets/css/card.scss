@@ -1,7 +1,46 @@
-.top-card {
-    width: 1197px;
+@import "variables";
+
+.slide-card1 {
+    width: $width-1197;
     top: 38px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.149);
     z-index: 3;
+    &__left-box {
+        color:$color-white1;
+    }
+    .profil-menu {
+    color:$color-white1;
+    }
+    .slide-favori {
+        line-height: $line-h40;
+        margin-right: $margin-33;
+        &::before {
+            margin-right: $margin-10;
+            content: '\e840';
+            font-family: "card-top-icon";
+        }
+    }
+    .slide-dropdown {
+        margin-right: $margin-33;
+        line-height: $line-h40;
+        &::before {
+            margin-right: $margin-10;
+            content: '\e846';
+            font-family: "user-icon";
+        }
+        &::after {
+            margin-left: $margin-10;
+            content: '\e841'; 
+            font-family: "icon-vector";
+            font-size: 8px;
+        }
+    }
+}
+
+.slide-card2 {
+    width: $width-1197;
+    z-index: 3;
+    bottom: 247px;
+    
 }
