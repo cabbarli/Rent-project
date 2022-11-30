@@ -1,8 +1,15 @@
+/*===== slide card start =====*/
+.card-body {
+  padding: 30px 5px;
+}
+
+/*===== slide top card start =====*/
 .slide-card1 {
   width: 1197px;
   top: 38px;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.149);
+  border: none;
+  background-color: transparent;
   z-index: 3;
 }
 
@@ -43,8 +50,70 @@
   font-size: 8px;
 }
 
+/*===== slide bottom card start =====*/
 .slide-card2 {
+  border-radius: 6px;
   width: 1197px;
   z-index: 3;
   bottom: 247px;
+}
+
+.slide-card2 .select {
+  border-right: 1px solid #717171;
+  padding: 0 25px;
+}
+
+.slide-card2 .select__metro {
+  width: 230px;
+}
+
+.slide-card2 .select__room {
+  width: 92px;
+}
+
+.slide-card2 .select__home {
+  width: 156px;
+}
+
+.slide-card2 .select .form-select {
+  height: 23px;
+  color: #8B8989;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.slide-card2 .select .form-label {
+  color: #272727;
+  line-height: 23px;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal;
+}
+
+.slide-card2 .search {
+  padding: 0 25px;
+}
+
+.slide-card2 .search__text {
+  width: 310px;
+  border: 1px solid #E6E6E6 !important;
+  border-radius: 6px;
+  height: 50px;
+  margin-right: 10px;
+  color: #9F9F9F;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  font-size: 14px;
+  font-line-height: 28px;
+  font-style: normal;
+}
+
+.slide-card2 .search__submit {
+  width: 126px;
+  height: 50px;
+  background-color: #3E86F5;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 15px;
 }

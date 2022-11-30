@@ -1,10 +1,15 @@
 @import "variables";
-
+/*===== slide card start =====*/
+.card-body {
+    padding:30px 5px;
+}
+/*===== slide top card start =====*/
 .slide-card1 {
     width: $width-1197;
     top: 38px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.149);
+    border: none;
+    background-color: transparent;
     z-index: 3;
     &__left-box {
         color:$color-white1;
@@ -37,10 +42,73 @@
         }
     }
 }
-
+/*===== slide bottom card start =====*/
+// mixin
+@mixin select {
+    height: $height-23;
+    color: $color-gray2;
+    font: {
+        size: $font-15;
+        weight: $font-400;
+       }
+    }
 .slide-card2 {
+    border-radius: $border-6;
     width: $width-1197;
     z-index: 3;
     bottom: 247px;
-    
+    .select {
+        border-right: 1px solid $color-gray;
+        padding:0 $padding-25;
+        &__metro {
+            width: 230px;   
+        }
+        &__room {
+            width: 92px;
+        }
+        &__home {
+            width: 156px
+        }
+        .form-select {
+            @include select;
+        }
+        .form-label {
+            color: $color-black;
+            line-height: $line-23;
+            font-weight: $font-500;
+            font: {
+                size: $font-15;
+                style:$font-normal;
+            }
+        }
+     }
+     .search {
+        padding:0 $padding-25;
+        &__text {
+        width: 310px;
+        border: 1px solid #E6E6E6 !important;
+        border-radius: $border-6;
+        height:  $height-50;
+        margin-right: 10px;
+        color: #9F9F9F;
+        letter-spacing: 0.2px;
+        font: {
+            weight:$font-400;
+            size:$font-14;
+            line-height: $line-28;
+            style:$font-normal;
+        }
+        }
+        &__submit {
+            width: 126px;
+            height: $height-50;
+            background-color: #3E86F5;
+            border-radius: $border-6;
+            color: $color-white;
+            font: {
+                weight:$font-500;
+                size:$font-15;
+            }
+        }
+     }
 }
