@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Maze&family=Silkscreen:wght@400;700&display=swap');
 
+/*===== carousel background =====*/
 .carousel__background {
   position: absolute;
   width: 100%;
@@ -16,3 +17,79 @@
   z-index: 2;
 }
 
+/*===== kateqoriya=====*/
+.category {
+  margin-top: 70px;
+ .category-box { 
+  max-width: 335px;
+  .category-box__text {
+    color:$color-blue;
+    line-height: $line-24;
+    margin-bottom: 12px;
+    font {
+      weight:$font-500;
+      size:$font-16;
+      style:$font-normal;
+    }
+  }
+  .category-box__title {
+    color: $color-black1;
+    line-height: $line-53;
+    letter-spacing: 0.02em;
+    margin-bottom: 24px;
+    font: {
+      weight:$font-600;
+      size:$font-36;
+      style:$font-normal;
+    }
+  }
+  .category-box__about {
+    line-height: $line-32;
+    color: $color-gray1;
+    font: {
+      weight:$font-400;
+      size:$font-18;
+    }
+  }
+ }
+}
+
+ /*===== satılıq, kirayə evlər =====*/
+  .rent-boxs {
+
+    h3 {
+      line-height: $line-25;
+      color: $color-black2;
+      font: {
+        weight:$font-500;
+        size:$font-20;
+      }
+    }
+    p {
+      line-height: $line-27;
+      color: $color-gray1;
+      font: {
+        weight:$font-400;
+        size:$font-16;
+      }
+    }
+    .sale__icon::before {
+      content: '\e847';
+      font-family: "category";
+      font-size: $font-35;
+      color: $color-purple;
+    }
+    .rent-month__icon::before {
+      content: '\e84b';
+      font-family: "category";
+      font-size: $font-35;
+      color: $color-green;
+    }
+    .rent-day__icon::before {
+      content: '\e84a';
+      font-family: "category";
+      font-size: $font-35;
+      color: $color-pink;
+    }
+  } 
+  
