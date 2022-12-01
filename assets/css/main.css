@@ -178,6 +178,10 @@
   background-color: #20d300;
 }
 
+.slide-card2 option {
+  background-color: #d9d8d8;
+}
+
 @font-face {
   font-family: 'card-top-icon';
   src: url("../font/card-top-icon.eot?35658113");

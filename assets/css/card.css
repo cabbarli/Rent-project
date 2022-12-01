@@ -168,3 +168,7 @@
 .slide-card2 .search__submit:hover {
   background-color: #20d300;
 }
+
+.slide-card2 option {
+  background-color: #d9d8d8;
+}
