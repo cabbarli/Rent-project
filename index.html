@@ -40,13 +40,13 @@
                               <!-- slide bottom card start -->
                <div class="card slide-card2 position-absolute " >
                     <div class="card-body">
-                          <form action="">
+                          <form action="#" name="form" id="myForm">
                              <div class="row">
                                 <div class="col d-flex">
                                    
                                    <div class="select">
                                     <label class="form-label" for="metro">Metro</label>
-                                     <select class="form-select select__metro  pointer-event border-0" name="metro" id="metro">
+                                     <select class="form-select select__metro  pointer-event border-0" name="metro" id="metro" aria-label="Açılan selekt qutusu">
                                        <option value="Elmlər akademiyası">Elmlər akademiyası</option>
                                        <option value="İnşaatçılar">İnşaatçılar</option>
                                        <option value="Nizami">Nizami</option>
@@ -56,25 +56,25 @@
 
                                    <div  class="select">
                                     <label class="form-label" for="room">Otaq sayı</label>
-                                    <select class="form-select select__room  border-0" name="room" id="room>">
+                                    <select class="form-select select__room  border-0" name="room" id="room>" aria-label="Açılan selekt qutusu">
                                       <option value="1">1</option>
                                       <option value="2">2</option>
                                       <option value="3">3</option>
                                       <option value="4">4</option>
                                       <option value="5">5</option>
                                     </select>
-                                  </div>
+                                  </div> 
                                   <div  class="select">
                                     <label class="form-label" for="home">Ev növü</label>
-                                    <select class="form-select select__home border-0" name="home" id="home">
+                                    <select class="form-select select__home border-0" name="home" id="home" aria-label="Açılan selekt qutusu">
                                       <option value="Həyət evi">Həyət evi</option>
                                       <option value="Bina">Bina</option>
                                     </select>
                                   </div>
 
                                   <div class="search d-flex align-items-center">
-                                       <input type="search" placeholder="Daxil et" class="form-control search__text d-inline-block">
-                                       <input type="submit" class="form-control search__submit btn d-inline-block " value="Axtar">
+                                       <input type="search" placeholder="Daxil et" class="form-control search__text d-inline-block" aria-label="axtarış mətni girmək üçün qutu" name="metin">
+                                       <input type="submit" class="form-control search__submit btn d-inline-block " value="Axtar" aria-label="axtar butonu">
                                   </div>
                                 </div> <!--col end-->   
                              </div> <!--row end-->    
@@ -91,13 +91,13 @@
                     <!-- carousel-indicators end -->
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="assets/img/6143BE70-8431-4101-B57E-2B05135EA967.png" alt="villa picture" class="d-block w-100 img-fluid">
+                        <img src="assets/img/6143BE70-8431-4101-B57E-2B05135EA967.png" alt="villa ev şekli" class="d-block w-100 img-fluid">
                     </div> 
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="assets/img/hyde-park-house-robeson-architects_2.png" alt="hyde-park-house picture" class="d-block w-100 img-fluid">
+                        <img src="assets/img/hyde-park-house-robeson-architects_2.png" alt="hyde-park-house ev şekli" class="d-block w-100 img-fluid">
                     </div> 
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="assets/img/_FI_Tobias_Partners_Collins_Beach_House_05_HR 1.png" alt="Beach_House picture" class="d-block w-100 img-fluid">
+                        <img src="assets/img/_FI_Tobias_Partners_Collins_Beach_House_05_HR 1.png" alt="Beach_House ev şekli" class="d-block w-100 img-fluid">
                     </div> 
                 </div> <!--carousel-inner end-->
             </div> <!--slide-carousel end-->
@@ -119,17 +119,17 @@
                  <div class="row">
                    <div class="col d-flex rent-boxs">
                      <div class="col sale ">
-                        <span class="sale__icon"></span>
+                        <span class="sale__icon" aria-label="satılıq evlər ikon"></span>
                         <h3 class="sale__title">Satılıq evlər</h3>
                         <p class="sale__text">Leverage agile framework to provide a robust high level</p>
                      </div> 
                      <div class="col rent-month">
-                        <span class="rent-month__icon"></span>
+                        <span class="rent-month__icon"  aria-label="aylıq kirayə evlər ikon"></span>
                         <h3 class="rent-month__title">Aylıq kirayə</h3>
                         <p class="rent-month__text">Bring to the table survival strategies to ensure proactive</p>
                      </div>
                         <div class="col rent-day">
-                        <span class="rent-day__icon"></span>
+                        <span class="rent-day__icon"  aria-label="günlük kirayə evlər ikon"></span>
                         <h3 class="rent-day__title">Günlük kirayə</h3>
                         <p class="rent-day__text">Grow the holistic world view of disruptive innovation</p>
                       </div>
@@ -142,5 +142,6 @@
     </div> <!-- row end -->
 </div> <!-- container end -->      
 <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
