@@ -62,7 +62,7 @@
 /*===== slide bottom card start =====*/
 .slide-card2 {
   border-radius: 6px;
-  width: 1197px;
+  width: 1204px;
   z-index: 3;
   bottom: 247px;
 }
@@ -383,22 +383,21 @@ body {
 /*===== kateqoriya=====*/
 .category {
   margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .category .category-box {
-  max-width: 335px;
+  width: 335px;
+  margin-right: 70px;
 }
 
 .category .category-box .category-box__text {
   color: #3E86F5;
   line-height: 24px;
   margin-bottom: 12px;
-}
-
-.category .category-box .category-box__text font {
-  weight: 500;
-  size: 16px;
-  style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
 }
 
 .category .category-box .category-box__title {
@@ -412,6 +411,7 @@ body {
 }
 
 .category .category-box .category-box__about {
+  width: 335px;
   line-height: 32px;
   color: #747582;
   font-weight: 400;
@@ -419,7 +419,29 @@ body {
 }
 
 /*===== satılıq, kirayə evlər =====*/
+.rent-boxs .sale {
+  max-width: 251px;
+  max-height: 287px;
+  padding: 60px 40px;
+}
+
+.rent-boxs .rent-month {
+  max-width: 251px;
+  max-height: 287px;
+  padding: 60px 40px;
+}
+
+.rent-boxs .rent-day {
+  max-width: 251px;
+  max-height: 287px;
+  padding: 60px 40px;
+  background: #FFFFFF;
+  box-shadow: 40px 0px 70px rgba(121, 121, 121, 0.05), -40px 100px 70px rgba(121, 121, 121, 0.05);
+}
+
 .rent-boxs h3 {
+  margin-top: 15px;
+  margin-bottom: 19px;
   line-height: 25px;
   color: #14183E;
   font-weight: 500;
@@ -427,6 +449,7 @@ body {
 }
 
 .rent-boxs p {
+  width: 179px;
   line-height: 27px;
   color: #747582;
   font-weight: 400;

@@ -14,7 +14,7 @@
     <div class="row g-0">
         <div class="col">
              
-            <div class="carousel slide position-relative d-flex justify-content-center" id="mySlide" data-bs-ride="carousel">
+            <div class="carousel slide position-relative d-flex justify-content-center" id="mySlide" data-bs-ride="carousel" data-bs-pause="false">
                          <!-- background color -->
                 <div class="carousel__background"></div>
                         <!-- slide top card start -->
@@ -120,7 +120,7 @@
                 <p class="category-box__about">We will bring the breathe of our experience and industry knowledge to help you succeed</p>
              </div>
              <div class="col">
-                <div class="container"> 
+                <div class="container p-0"> 
                  <div class="row">
                    <div class="col d-flex rent-boxs">
                      <div class="col sale ">
@@ -147,5 +147,10 @@
     </div> <!-- row end -->
 </div> <!-- container end -->      
 <script src="assets/js/bootstrap.bundle.min.js"></script>
+<script>
+  $('.carousel').carousel({
+  pause: "false"
+});
+</script>
 </body>
 </html>
