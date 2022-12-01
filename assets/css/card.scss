@@ -1,7 +1,7 @@
 @import "variables";
 /*===== slide card start =====*/
 .card-body {
-    padding:30px 5px;
+    padding:20px 5px;
 }
 /*===== slide top card start =====*/
 .slide-card1 {
@@ -13,8 +13,7 @@
     z-index: 3;
     &__left-box {
         color:$color-white1;
-    }
-    
+    }   
     .slide-favori {
         color:$color-white1;
         line-height: $line-h40;
@@ -94,16 +93,16 @@
     bottom: 247px;
     .select {
         border-right: 1px solid $color-gray;
-        padding:0 $padding-25;
+        padding: 0 $padding-30;
         &__metro {
-            width: 230px;   
+            width: 254px;   
         }
         &__room {
-            width: 92px;
+            width: 96px;
         }
         &__home {
-            width: 156px
-        }
+            width: 158px
+        } 
         .form-select {
             @include select;
             padding:  0 10px 0 2px !important;

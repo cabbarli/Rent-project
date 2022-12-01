@@ -1,6 +1,6 @@
 /*===== slide card start =====*/
 .card-body {
-  padding: 30px 5px;
+  padding: 20px 5px;
 }
 
 /*===== slide top card start =====*/
@@ -99,19 +99,19 @@
 
 .slide-card2 .select {
   border-right: 1px solid #717171;
-  padding: 0 25px;
+  padding: 0 30px;
 }
 
 .slide-card2 .select__metro {
-  width: 230px;
+  width: 254px;
 }
 
 .slide-card2 .select__room {
-  width: 92px;
+  width: 96px;
 }
 
 .slide-card2 .select__home {
-  width: 156px;
+  width: 158px;
 }
 
 .slide-card2 .select .form-select {

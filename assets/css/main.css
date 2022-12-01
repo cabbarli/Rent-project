@@ -9,7 +9,7 @@
 
 /*===== slide card start =====*/
 .card-body {
-  padding: 30px 5px;
+  padding: 20px 5px;
 }
 
 /*===== slide top card start =====*/
@@ -24,10 +24,6 @@
 
 .slide-card1__left-box {
   color: #FDFDFD;
-}
-
-.slide-card1 .profil-menu {
-  color: #FDFDFD !important;
 }
 
 .slide-card1 .slide-favori {
@@ -57,6 +53,7 @@
   margin-right: 37px;
   line-height: 40px;
   transition: 200ms all;
+  color: white !important;
 }
 
 .slide-card1 .slide-dropdown::after {
@@ -77,6 +74,10 @@
 .slide-card1 .dropdown-box:hover .user {
   background-color: #17cd01;
   border-radius: 50px;
+}
+
+.slide-card1 .dropdown-item {
+  font-size: 13px;
 }
 
 .slide-card1 .Logo {
@@ -107,19 +108,19 @@
 
 .slide-card2 .select {
   border-right: 1px solid #717171;
-  padding: 0 25px;
+  padding: 0 30px;
 }
 
 .slide-card2 .select__metro {
-  width: 230px;
+  width: 254px;
 }
 
 .slide-card2 .select__room {
-  width: 92px;
+  width: 96px;
 }
 
 .slide-card2 .select__home {
-  width: 156px;
+  width: 158px;
 }
 
 .slide-card2 .select .form-select {
