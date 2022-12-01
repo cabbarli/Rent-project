@@ -18,29 +18,36 @@
 }
 
 .slide-card1 .profil-menu {
-  color: #FDFDFD;
+  color: #FDFDFD !important;
 }
 
 .slide-card1 .slide-favori {
+  color: #FDFDFD;
   line-height: 40px;
   margin-right: 37px;
+  transition: 200ms all;
 }
 
 .slide-card1 .slide-favori::before {
+  transition: 200ms all;
   margin-right: 10px;
   content: '\e840';
+  font-size: 25px;
   font-family: "card-top-icon";
+}
+
+.slide-card1 .slide-favori:hover {
+  color: yellow;
+}
+
+.slide-card1 .slide-favori:hover::before {
+  color: red;
 }
 
 .slide-card1 .slide-dropdown {
   margin-right: 37px;
   line-height: 40px;
-}
-
-.slide-card1 .slide-dropdown::before {
-  margin-right: 10px;
-  content: '\e846';
-  font-family: "user-icon";
+  transition: 200ms all;
 }
 
 .slide-card1 .slide-dropdown::after {
@@ -48,6 +55,37 @@
   content: '\e841';
   font-family: "icon-vector";
   font-size: 8px;
+}
+
+.slide-card1 .slide-dropdown:hover {
+  color: yellow !important;
+}
+
+.slide-card1 .user {
+  transition: 200ms all !important;
+}
+
+.slide-card1 .dropdown-box:hover .user {
+  background-color: #17cd01;
+  border-radius: 50px;
+}
+
+.slide-card1 .Logo {
+  padding: 3px 7px;
+  border-radius: 20px;
+  transition: 200ms all;
+}
+
+.slide-card1 .Logo:hover {
+  box-shadow: 3px 3px 40px 3px #e1dede;
+}
+
+.slide-card1 .elan {
+  transition: 200ms all !important;
+}
+
+.slide-card1 .elan:hover {
+  box-shadow: 3px 3px 40px 3px #e1dede;
 }
 
 /*===== slide bottom card start =====*/
@@ -80,9 +118,17 @@
   color: #8B8989;
   font-size: 15px;
   font-weight: 400;
+  padding: 0 10px 0 2px !important;
+  transition: 180ms all !important;
+  cursor: pointer;
+}
+
+.slide-card2 .select .form-select:hover {
+  color: #272727 !important;
 }
 
 .slide-card2 .select .form-label {
+  padding-left: 2px;
   color: #272727;
   line-height: 23px;
   font-weight: 500;
@@ -114,6 +160,11 @@
   background-color: #3E86F5;
   border-radius: 6px;
   color: #FFFFFF;
+  transition: 200ms all;
   font-weight: 500;
   font-size: 15px;
+}
+
+.slide-card2 .search__submit:hover {
+  background-color: #20d300;
 }

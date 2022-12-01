@@ -15,33 +15,65 @@
         color:$color-white1;
     }
     .profil-menu {
-    color:$color-white1;
+    color:$color-white1 !important;
     }
     .slide-favori {
+        color:$color-white1;
         line-height: $line-h40;
         margin-right: $margin-33;
+        transition: 200ms all;
         &::before {
+            transition: 200ms all;
             margin-right: $margin-10;
             content: '\e840';
+            font-size: 25px;
             font-family: "card-top-icon";
+        }
+        &:hover {
+            color: yellow;
+            &::before {
+                color: red;
+            }
         }
     }
     .slide-dropdown {
         margin-right: $margin-33;
         line-height: $line-h40;
-        &::before {
-            margin-right: $margin-10;
-            content: '\e846';
-            font-family: "user-icon";
-        }
+        transition: 200ms all;
         &::after {
             margin-left: $margin-10;
             content: '\e841'; 
             font-family: "icon-vector";
             font-size: 8px;
         }
-    }
-}
+       
+        &:hover {
+            color: yellow !important;
+       }
+       }
+       .user {
+        transition: 200ms all !important;
+       }
+       .dropdown-box:hover .user {
+            background-color: #17cd01;
+            border-radius: 50px;
+        }
+       .Logo {   
+            padding: 3px 7px;
+            border-radius: 20px;
+            transition: 200ms all;
+        }
+       .Logo:hover {
+            box-shadow:3px 3px 40px 3px rgb(225, 222, 222) ;
+          }
+       .elan {
+            transition: 200ms all !important;
+       }   
+       .elan:hover {
+            box-shadow:3px 3px 40px 3px rgb(225, 222, 222) ;
+       }   
+       }
+
 /*===== slide bottom card start =====*/
 // mixin
 @mixin select {
@@ -71,8 +103,15 @@
         }
         .form-select {
             @include select;
+            padding:  0 10px 0 2px !important;
+            transition: 180ms all !important;
+            cursor: pointer;           
+            &:hover {
+                 color:#272727 !important;
+              }
         }
         .form-label {
+            padding-left: 2px;
             color: $color-black;
             line-height: $line-23;
             font-weight: $font-500;
@@ -105,9 +144,13 @@
             background-color: #3E86F5;
             border-radius: $border-6;
             color: $color-white;
+            transition: 200ms all;
             font: {
                 weight:$font-500;
                 size:$font-15;
+            }
+            &:hover {
+                background-color: #20d300;
             }
         }
      }
