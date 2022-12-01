@@ -17,10 +17,6 @@
   color: #FDFDFD;
 }
 
-.slide-card1 .profil-menu {
-  color: #FDFDFD !important;
-}
-
 .slide-card1 .slide-favori {
   color: #FDFDFD;
   line-height: 40px;
@@ -48,6 +44,7 @@
   margin-right: 37px;
   line-height: 40px;
   transition: 200ms all;
+  color: white !important;
 }
 
 .slide-card1 .slide-dropdown::after {
@@ -68,6 +65,10 @@
 .slide-card1 .dropdown-box:hover .user {
   background-color: #17cd01;
   border-radius: 50px;
+}
+
+.slide-card1 .dropdown-item {
+  font-size: 13px;
 }
 
 .slide-card1 .Logo {
